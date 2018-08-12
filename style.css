@@ -238,7 +238,7 @@ div.flags img {
 /*aside*/
 
 aside {
-    width: 40%;
+    width: 30%;
 }
 
 aside p {
@@ -248,7 +248,8 @@ aside p {
     background-position: 3% 50%;
 }
 #harta {
-    margin-left: 15px;
+    margin-left: 5px;
+    margin-right: auto;
     width: 95%;
 }
 div.Partneret{
@@ -256,7 +257,7 @@ div.Partneret{
     flex-direction: column;
 }
 div.Partneret img {
-    width: 50%;
+    max-width: 60%;
     min-height: 30%;
     padding: 20px;
     margin-left: 25%;

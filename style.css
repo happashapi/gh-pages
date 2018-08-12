@@ -238,7 +238,7 @@ div.flags img {
 /*aside*/
 
 aside {
-    width: 400px
+    width: 40%;
 }
 
 aside p {
@@ -246,6 +246,21 @@ aside p {
     padding-left: 30px;
     background-size: 20px;
     background-position: 3% 50%;
+}
+#harta {
+    margin-left: 15px;
+    width: 95%;
+}
+div.Partneret{
+    display: flex;
+    flex-direction: column;
+}
+div.Partneret img {
+    width: 50%;
+    min-height: 30%;
+    padding: 20px;
+    margin-left: 25%;
+    
 }
 
 p#adresa {
@@ -270,9 +285,7 @@ p#mail {
     background-image: url(mail.png);
 }
 
-#harta {
-    margin-left: 20px;
-}
+
 
 hr {
     border-top: 2px solid grey;
@@ -331,6 +344,10 @@ footer p {
     display: flex;
     flex-flow: row;
 }
+html.Home article{
+    min-width: 60%;
+    font-size: 18px;
+}
 /* || main layout RrethNesh_Al */
 html.RrethNesh main{
     display: flex;
@@ -354,3 +371,6 @@ html.Sherbime p{
     font: bold;
      text-decoration: underline;
 }
+
+
+
